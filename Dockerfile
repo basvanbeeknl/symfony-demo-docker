@@ -102,6 +102,12 @@ RUN composer create-project "${SKELETON} ${SYMFONY_VERSION}" . --stability=$STAB
 
 COPY . .
 
+# BVB Media: Install npm and yarn inside PHP container
+RUN apk add --no-cache \
+		npm \
+		yarn \
+	;
+
 RUN set -eux; \
 	mkdir -p var/cache var/log; \
 	composer install --prefer-dist --no-dev --no-progress --no-scripts --no-interaction; \
