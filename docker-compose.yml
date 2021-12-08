@@ -7,7 +7,7 @@ services:
       target: symfony_php
       args:
         SYMFONY_VERSION: ${SYMFONY_VERSION:-}
-        SKELETON: ${SKELETON:-symfony/skeleton}
+        SKELETON: ${SKELETON:-symfony/symfony-demo}
         STABILITY: ${STABILITY:-stable}
     restart: unless-stopped
     volumes:
