@@ -1,8 +1,11 @@
-# Symfony Docker
-
+Symfony Demo Docker
+===================
 A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with full [HTTP/2](https://symfony.com/doc/current/weblink.html), HTTP/3 and HTTPS support.
 
-![CI](https://github.com/dunglas/symfony-docker/workflows/CI/badge.svg)
+![CI](https://github.com/bvbmedia/symfony-demo-docker/workflows/CI/badge.svg)
+
+The "Symfony Demo Application" is a reference application created to show how
+to develop applications following the [Symfony Best Practices][1].
 
 ## Getting Started
 
@@ -22,8 +25,6 @@ A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony
 * Just 2 services (PHP FPM and Caddy server)
 * Super-readable configuration
 
-**Enjoy!**
-
 ## Docs
 
 1. [Build options](docs/build.md)
@@ -32,8 +33,3 @@ A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony
 4. [Deploying in production](docs/production.md)
 5. [Installing Xdebug](docs/xdebug.md)
 6. [Using a Makefile](docs/makefile.md)
-7. [Troubleshooting](docs/troubleshooting.md)
-
-## Credits
-
-Created by [Kévin Dunglas](https://dunglas.fr), co-maintained by [Maxime Helias](https://twitter.com/maxhelias) and sponsored by [Les-Tilleuls.coop](https://les-tilleuls.coop).
